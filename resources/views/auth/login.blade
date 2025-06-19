@@ -1,0 +1,13 @@
+<form action="{{ route('login.post') }}" method="POST" class="space-y-4">
+  @csrf
+  <input type="email" name="email" placeholder="Email" class="..." required>
+  <input type="password" name="password" placeholder="Password" class="..." required>
+
+  @if ($errors->any())
+    <div class="text-red-500 text-sm">
+      {{ $errors->first() }}
+    </div>
+  @endif
+
+  <button type="submit" class="...">Sign In</button>
+</form>
