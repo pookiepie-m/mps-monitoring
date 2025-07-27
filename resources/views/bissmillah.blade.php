@@ -16,7 +16,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url('../img/buil.JPG');
+    background-image: url('/public/img/buil.JPG');
     background-repeat: no-repeat;
     background-position: bottom;
     opacity: 0.8; /* transparansi background */
@@ -32,7 +32,7 @@
       <!-- Left Panel -->
       <div class="w-full md:w-1/2 p-8">
         <div class="flex items-center space-x-2 mb-10 -mt-5 -ml-8">
-          <img src="../img/logoo.PNG" alt="Polines" class="w-30 h-10 -mt-3">
+          <img src="/public/img/logoo.PNG" alt="Polines" class="w-30 h-10 -mt-3">
           <span class="font-semibold text-sm"></span>
         </div>
 
@@ -78,7 +78,7 @@
 
       <!-- Right Panel -->
       <div class="hidden md:block w-1/2 bg-blue-100 flex items-center justify-center">
-        <img src="../img/login.GIF" alt="Illustration" class="object-contain w-full mt-20"> 
+        <img src="/public/img/login.GIF" alt="Illustration" class="object-contain w-full mt-20"> 
       </div>
     </div>
   </div>

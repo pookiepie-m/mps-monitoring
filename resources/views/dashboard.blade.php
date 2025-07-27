@@ -150,7 +150,7 @@
   <!-- Slideshow Container -->
   <div id="slideshow" class="absolute inset-0 z-0">
     <div class="absolute inset-0 bg-cover bg-center transition-all duration-[1500ms] ease-in-out"
-         style="background-image: url('../img/poli.jpg');"></div>
+         style="background-image: url('/public/img/poli.jpg');"></div>
   </div>
 
   <!-- Overlay Transparan -->
@@ -200,7 +200,7 @@
      
     <div class="bg-gray-200 p-4 rounded shadow relative z-[-1]">
       <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 z-0">
-        <img src="../img/haiwell2.JPG" alt="User" class="w-50 h-50 object-cover">
+        <img src="/public/img/haiwell2.JPG" alt="User" class="w-50 h-50 object-cover">
         <div class="flex-1">
           <h2 class="font-semibold text-bold text-gray-800">MPS (Modullar Production System)</h2>
           <p class="text-sm text-gray-600 text-justify"><br>
@@ -223,20 +223,20 @@
   <div class="slider-track flex w-max animate-slide">
     <!-- Kumpulan logo (1) -->
     <div class="flex gap-8">
-      <img src="../img/haiwell.png" alt="React" class="h-24 w-auto">
-      <img src="../img/laravel.jpg" alt="Sass" class="h-24 w-auto">
-      <img src="../img/scada.png" alt="Tailwind" class="h-24 w-auto">
-      <img src="../img/tailwind.png" alt="JS" class="h-24 w-auto">
-      <img src="../img/mqttx.png" alt="GitHub" class="h-24 w-auto">
+      <img src="/public/img/haiwell.png" alt="React" class="h-24 w-auto">
+      <img src="/public/img/laravel.jpg" alt="Sass" class="h-24 w-auto">
+      <img src="/public/img/scada.png" alt="Tailwind" class="h-24 w-auto">
+      <img src="/public/img/tailwind.png" alt="JS" class="h-24 w-auto">
+      <img src="/public/img/mqttx.png" alt="GitHub" class="h-24 w-auto">
     </div>
 
     <!-- Kumpulan logo (2) = duplikat -->
     <div class="flex gap-8">
-      <img src="../img/haiwell.png" alt="React" class="h-24 w-auto">
-      <img src="../img/laravel.jpg" alt="Sass" class="h-24 w-auto">
-      <img src="../img/scada.png" alt="Tailwind" class="h-24 w-auto">
-      <img src="../img/tailwind.png" alt="JS" class="h-24 w-auto">
-      <img src="../img/mqttx.png" alt="GitHub" class="h-24 w-auto">
+      <img src="/public/img/haiwell.png" alt="React" class="h-24 w-auto">
+      <img src="/public/img/laravel.jpg" alt="Sass" class="h-24 w-auto">
+      <img src="/public/img/scada.png" alt="Tailwind" class="h-24 w-auto">
+      <img src="/public/img/tailwind.png" alt="JS" class="h-24 w-auto">
+      <img src="/public/img/mqttx.png" alt="GitHub" class="h-24 w-auto">
     </div>
   </div>
 </div>
