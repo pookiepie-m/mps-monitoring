@@ -78,7 +78,7 @@
 
       <!-- Right Panel -->
       <div class="hidden md:block w-1/2 bg-blue-100 flex items-center justify-center">
-        <img src="/public/img/login.GIF" alt="Illustration" class="object-contain w-full mt-20"> 
+        <img src="/public/img/login.gif" alt="Illustration" class="object-contain w-full mt-20"> 
       </div>
     </div>
   </div>
