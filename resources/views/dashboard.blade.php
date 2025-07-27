@@ -348,9 +348,9 @@
 
     const slideshow = document.querySelector('#slideshow div');
   const images = [
-    "../img/poli.jpg",
-    "../img/bg.jpg",
-    "../img/fac.jpg"
+    "/public_html/img/poli.jpg",
+    "/public_html/img/bg.jpg",
+    "/public_html/img/fac.jpg"
   ];
   let index = 0;
 
