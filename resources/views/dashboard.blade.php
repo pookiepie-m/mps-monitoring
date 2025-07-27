@@ -4,6 +4,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dashboard Page</title>
+  <!-- FullCalendar CSS -->
+  <link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
+  <!-- FullCalendar JS -->
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js'></script>
+
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -66,8 +71,6 @@
     Logout
   </button>
 </form>
-
-
       </div>
     </div>
   </div>
@@ -95,9 +98,9 @@
           </a>
         </li>
         <li>
-          <a href="#" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
+          <a href="{{ url('/calendar') }}" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
             <i class="fas fa-calendar-alt"></i>
-            <span>Calendar</span>
+            <span>Calendar Activity</span>
           </a>
         </li>
         <li>
@@ -107,7 +110,7 @@
           </a>
         </li>
         <li>
-          <a href="../landingpage.blade.php" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
+          <a href="{{ url('/produk') }}" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
             <i class="fas fa-box"></i>
             <span>Product Monitoring</span>
           </a>
@@ -118,17 +121,21 @@
             <span>MQTT Status</span>
           </a>
         </li>
+         <li>
+          <a href="{{ url('/doc') }}" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
+            <i class="fa-solid fa-folder"></i>
+            <span>Documentation</span>
+          </a>
+        </li>
         <li>
-          <a href="#" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
+          <a href="{{ url('/team') }}" class="flex items-center space-x-3 text-white hover:text-gray-900 hover:bg-white transition px-3 py-2 rounded">
             <i class="fa-solid fa-people-group"></i>
             <span>Our Team</span>
           </a>
         </li>
       </ul>
     </div>
-    <button id="theme-toggle" class="text-1xl p-2 rounded-full border border-gray-400 dark:border-white fixed top-4 right-4">
-  <span id="theme-icon">🌙</span>
-</button>
+    
   </div>
   <!-- Toggle Button -->
 
@@ -166,10 +173,10 @@
 
     <!-- Info Boxes -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-      <div id="weather" class="bg-sky-500 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-3xl font-bold text-sky-800">
-        <i class="fas fa-thermometer-half mr-2"></i>
+      <div id="weather" class="bg-sky-800 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-2xl font-bold text-sky-800">
+        <i class="fa-solid fa-bolt">24 Volt DC</i>
       </div>
-      <div id="weather1" class="bg-sky-600 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-3xl font-bold text-sky-800">
+      <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-3xl font-bold text-sky-800">
         <i class="fas fa-tint mr-2"></i>
       </div>
       <div id="lokasi" class="bg-sky-700 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-2xl font-bold text-sky-800">
@@ -183,7 +190,7 @@
 </div>
 <div>
   <div class="flex justify-center mb-4">
-    <div class="bg-indigo-500 px-6 py-3 rounded-full shadow-md">
+    <div class="bg-sky-400 px-6 py-3 rounded-md shadow-md">
       <h1 class="text-white text-1xl font-bold text-center">About</h1>
     </div>
 </div>
@@ -193,11 +200,11 @@
      
     <div class="bg-gray-200 p-4 rounded shadow relative z-[-1]">
       <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 z-0">
-        <img src="../img/haiwell2.JPG" alt="User" class="w-16 h-16 object-cover">
+        <img src="../img/haiwell2.JPG" alt="User" class="w-50 h-50 object-cover">
         <div class="flex-1">
-          <h2 class="font-semibold text-gray-800">PLC Haiwell</h2>
-          <p class="text-sm text-gray-600">
-            Lorem ipsum dolor sit amet, lorem isum dolor sit amt. PLC adalah PLC Haiwell, maulfakuf, meja putar dan stamping.
+          <h2 class="font-semibold text-bold text-gray-800">MPS (Modullar Production System)</h2>
+          <p class="text-sm text-gray-600 text-justify"><br>
+            In this Final Project, the controller we used is the Haiwell PLC type H32S0T-e, which provides 16 digital inputs and 16 transistor outputs. This PLC is equipped with one Ethernet port and two RS485 ports, allowing communication with various industrial devices using standard protocols such as Modbus TCP and Modbus RTU.
           </p>
         </div>
         <a href="/detail" class="text-sm text-white bg-sky-500 hover:bg-sky-600 px-3 py-1 rounded shadow">Learn More</a>
@@ -205,31 +212,18 @@
     </div>
 
     <!-- Card 2 -->
-    <div class="bg-gray-200 p-4 rounded shadow relative z-[-1]">
-      <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 ">
-        <img src="../img/hmi.jpg" alt="User" class="w-16 h-16 object-cover">
-        <div class="flex-1">
-          <h2 class="font-semibold text-gray-800">Human Machine Interface (HMI)</h2>
-          <p class="text-sm text-gray-600">
-            Lorem ipsum dolor sit amet, lorem isum dolor sit amt. PLC adalah PLC Haiwell, maulfakuf, meja putar dan stamping.
-          </p>
-        </div>
-        <a href="/detail" class="text-sm text-white bg-sky-500 hover:bg-sky-600 px-3 py-1 rounded shadow">Learn More</a>
-      </div>
-    </div>
   </div>
 
  <div class="overflow-hidden bg-white py-6">
    <div class="flex justify-center mb-8">
-    <div class="bg-indigo-500 px-6 py-3 rounded-full shadow-md">
-      <h1 class="text-white text-1xl font-bold text-center">Support System</h1>
+    <div class="bg-sky-400 px-6 py-3 rounded-md shadow-md">
+      <h1 class="text-white text-1xl font-bold text-center">Aplication & System</h1>
     </div>
   </div>
   <div class="slider-track flex w-max animate-slide">
     <!-- Kumpulan logo (1) -->
     <div class="flex gap-8">
       <img src="../img/haiwell.png" alt="React" class="h-24 w-auto">
-      <img src="../img/mps.png" alt="C#" class="h-24 w-auto">
       <img src="../img/laravel.jpg" alt="Sass" class="h-24 w-auto">
       <img src="../img/scada.png" alt="Tailwind" class="h-24 w-auto">
       <img src="../img/tailwind.png" alt="JS" class="h-24 w-auto">
@@ -239,7 +233,6 @@
     <!-- Kumpulan logo (2) = duplikat -->
     <div class="flex gap-8">
       <img src="../img/haiwell.png" alt="React" class="h-24 w-auto">
-      <img src="../img/mps.png" alt="C#" class="h-24 w-auto">
       <img src="../img/laravel.jpg" alt="Sass" class="h-24 w-auto">
       <img src="../img/scada.png" alt="Tailwind" class="h-24 w-auto">
       <img src="../img/tailwind.png" alt="JS" class="h-24 w-auto">
@@ -326,30 +319,30 @@
     }
   });
 
-  // suhu
-  const apiKey = 'a361d37f21baa0adf59fb971412bc8c8';
-  const city = 'Semarang'; // Ganti sesuai lokasi kamu
+  // // suhu
+  // const apiKey = 'a361d37f21baa0adf59fb971412bc8c8';
+  // const city = 'Semarang'; // Ganti sesuai lokasi kamu
 
-  fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
-    .then(response => response.json())
-    .then(data => {
-      const suhu = data.main.temp;
-      const kelembapan = data.main.humidity;
-      const kondisi = data.weather[0].description;
+  // fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+  //   .then(response => response.json())
+  //   .then(data => {
+  //     const suhu = data.main.temp;
+  //     const kelembapan = data.main.humidity;
+  //     const kondisi = data.weather[0].description;
       
-      document.getElementById('weather').innerHTML = `<i class="fas fa-thermometer-half mr-2"></i>${suhu}°C`;
-      document.getElementById('weather1').innerHTML = `<i class="fas fa-tint mr-2"></i>${kelembapan}%`;
-      document.getElementById('lokasi').innerHTML = `<i class="fas fa-location-dot mr-2"></i>${city}`;
-      document.getElementById('keadaan').innerHTML = `<i class="fas fa-cloud mr-2"></i>${kondisi}`;
+  //     document.getElementById('weather').innerHTML = `<i class="fas fa-thermometer-half mr-2"></i>${suhu}°C`;
+  //     document.getElementById('weather1').innerHTML = `<i class="fas fa-tint mr-2"></i>${kelembapan}%`;
+  //     document.getElementById('lokasi').innerHTML = `<i class="fas fa-location-dot mr-2"></i>${city}`;
+  //     document.getElementById('keadaan').innerHTML = `<i class="fas fa-cloud mr-2"></i>${kondisi}`;
     
-    })
-    .catch(err => {
-      console.error(err);
-      document.getElementById('weather').innerText = 'Gagal mengambil data cuaca';
-      document.getElementById('weather1').innerText = 'Gagal mengambil data cuaca';
-      document.getElementById('lokasi').innerText = 'Gagal mengambil data cuaca';
-      document.getElementById('keadaan').innerText = 'Gagal mengambil data cuaca';
-    });
+  //   })
+  //   .catch(err => {
+  //     console.error(err);
+  //     document.getElementById('weather').innerText = 'Gagal mengambil data cuaca';
+  //     document.getElementById('weather1').innerText = 'Gagal mengambil data cuaca';
+  //     document.getElementById('lokasi').innerText = 'Gagal mengambil data cuaca';
+  //     document.getElementById('keadaan').innerText = 'Gagal mengambil data cuaca';
+  //   });
 
     // kelembapan
 
@@ -370,19 +363,7 @@
   const themeIcon = document.getElementById('theme-icon');
 
   // Saat load, cek preferensi
-  if (localStorage.getItem('theme') === 'dark') {
-    document.documentElement.classList.add('dark');
-    themeIcon.textContent = '🌞';
-  } else {
-    themeIcon.textContent = '🌙';
-  }
-
-  toggleBtn.addEventListener('click', () => {
-    document.documentElement.classList.toggle('dark');
-    const isDark = document.documentElement.classList.contains('dark');
-    themeIcon.textContent = isDark ? '🌞' : '🌙';
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  });
+ 
 
 </script>
 

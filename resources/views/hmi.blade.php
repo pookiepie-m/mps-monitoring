@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HMI Monitoring</title>
+@extends('layouts.app')
+
+@section('title', 'Hmi Monitoring')
+
+@section('content')
     <style>
         #status {
             font-weight: bold;
         }
     </style>
-</head>
-<body>
+
     <h1>Monitoring HMI</h1>
     <p>IP Address yang dicek: <span id="ip-address">192.168.1.100</span></p>
     <p>Status koneksi: <span id="status">Mengecek...</span></p>
@@ -31,5 +29,4 @@
             });
     </script>
     <iframe src="http://172.20.10.2" width="100%" height="600px" frameborder="0"></iframe>
-</body>
-</html>
+@endsection

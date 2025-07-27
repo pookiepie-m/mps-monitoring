@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MQTT Status</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
-</head>
-<body class="bg-yellow-400 min-h-screen flex flex-col items-center justify-start py-10">
+@extends('layouts.app')
+
+@section('title', 'Hmi Monitoring')
+
+@section('content')
+    
+
+<body class="bg-blue-400 min-h-screen flex flex-col items-center justify-start py-10">
     <h1 class="text-white text-4xl font-bold mb-8">MQTT STATUS</h1>
 
     <div class="flex flex-col space-y-4 w-full max-w-4xl px-10">
@@ -73,5 +71,4 @@
             messageContent.classList.remove('text-gray-500', 'italic');
         });
     </script>
-</body>
-</html>
+@endsection

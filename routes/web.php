@@ -4,6 +4,8 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Auth\ForgotPasswordController;
 use App\Http\Controllers\Auth\ResetPasswordController;
 use App\Http\Controllers\GoogleController;
+use App\Http\Controllers\CalendarController;
+
 
 
 // Halaman utama diarahkan ke login
@@ -47,3 +49,27 @@ Route::get('/hmi', function () {
 Route::get('/mqttstatus', function () {
     return view('mqttstatus');
 })->name('mqttstatus');
+
+Route::get('/doc', function () {
+    return view('doc');
+})->name('doc');
+
+Route::get('/calendar', function () {
+    return view('calendar');
+})->name('calendar');
+
+Route::get('/produk', function () {
+    return view('produk');
+})->name('produk');
+
+Route::get('/team', function () {
+    return view('team');
+})->name('team');
+
+Route::get('/calendar', [CalendarController::class, 'index']);
+Route::get('/calendar/events', [CalendarController::class, 'fetchEvents']);
+Route::post('/calendar/store', [CalendarController::class, 'store']);
+Route::post('/calendar/update', [CalendarController::class, 'update']);
+Route::post('/calendar/delete', [CalendarController::class, 'destroy']);
+
+
