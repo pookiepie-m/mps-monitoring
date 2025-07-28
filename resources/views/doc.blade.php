@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         <div class="text-center">
             <img src="{{ asset('img/gambar1.jpg') }}" alt="Gambar 1" class="w-full h-48 object-cover rounded-lg shadow">
             <p class="mt-2 text-gray-700">Keterangan Gambar 1</p>
@@ -34,7 +34,7 @@
         </div>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
         <div class="text-center">
             <img src="{{ asset('img/gambar1.jpg') }}" alt="Gambar 1" class="w-full h-48 object-cover rounded-lg shadow">
             <p class="mt-2 text-gray-700">Keterangan Gambar 1</p>
