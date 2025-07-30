@@ -21,13 +21,9 @@
   #weather, #weather1, #lokasi, #keadaan {
   font-family: 'Quicksand', sans-serif;
   color: white;
-  text-shadow: 1px 1px 0 blue,
-               -1px 1px 0 blue,
-               1px -1px 0 blue,
-               -1px -1px 0 blue;
-  font-size: 1.3rem;
+  font-size: 0.5rem;
   margin-bottom: 0.5rem;
-  font-weight: bold;
+  /* font-weight: bold; */
 
   
   }
@@ -173,7 +169,7 @@
 
     <!-- Info Boxes -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-      <div id="" class="bg-sky-800 text-center px-4 py-6 rounded shadow text-sky-800">
+      <div id="weather" class="bg-sky-800 text-center px-4 py-6 rounded shadow font-bold text-sky-800">
         <i class="fa-solid fa-bolt">The process starts with a button press — the conveyor moves, a box is detected, and filling begins. After placing the product and lid, the conveyor continues. Emergency and stop buttons ensure safety, with indicators showing system status.</i>
       </div>
       <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-3xl font-bold text-sky-800">
