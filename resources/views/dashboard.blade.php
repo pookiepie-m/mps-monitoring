@@ -21,7 +21,7 @@
   #weather, #weather1, #lokasi, #keadaan {
   font-family: 'Quicksand', sans-serif;
   color: white;
-  font-size: 0.5rem;
+  font-size: 1rem;
   margin-bottom: 0.5rem;
   /* font-weight: bold; */
 
