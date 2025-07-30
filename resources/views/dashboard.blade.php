@@ -170,24 +170,27 @@
     <!-- Info Boxes -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
   <div id="weather" class="bg-sky-800 px-4 py-6 rounded shadow text-white">
-    <p class="text-justify font-semibold">
+     <p class="text-justify font-medium mt-2">Unit 1</p>
+    <p class="text-justify">
       The process starts with a button press — the conveyor moves, a box is detected, and filling begins. After placing the product and lid, the conveyor continues. Emergency and stop buttons ensure safety, with indicators showing system status.
     </p>
   </div>
   
   <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-3xl font-bold text-white">
-    <i class="fas fa-tint mr-2"></i>
-    <p class="text-base font-medium mt-2">Humidity Sensor</p>
+    <p class="text-justify font-medium mt-2">Unit 2</p>
+    <p class="text-justify font-medium mt-2">with HMI monitoring is an industrial innovation designed to improve efficiency and accuracy. The PLC controls the mechanical operations, enabling fully automated packaging, while the HMI provides a real-time interface for operators to monitor machine status, access production data, and perform control and diagnostics easily
+
+</p>
   </div>
   
   <div id="lokasi" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
-    <i class="fas fa-location-dot mr-2"></i>
-    <p class="text-base font-medium mt-2">Device Location</p>
+   <p class="text-justify">Unit 3</p>
+    <p class="text-justify font-medium mt-2">Device Location</p>
   </div>
   
   <div id="keadaan" class="bg-sky-800 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
-    <i class="fas fa-cloud mr-2"></i>
-    <p class="text-base font-medium mt-2">Weather Condition</p>
+    <p class="text-justify font-medium mt-2">Unit 4</p>
+    <p class="text-justify ">designed to automate barcode scanning and systematic item placement on the correct rack. As part of the production system module, it supports automatic tracking and inventory management. The unit scans product barcodes, identifies proper storage locations, and controls item movement to assigned racks, enhancing efficiency, reducing human error, and speeding up distribution in manufacturing.</p>
   </div>
 </div>
 
