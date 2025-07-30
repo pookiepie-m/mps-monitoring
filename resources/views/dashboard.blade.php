@@ -169,19 +169,28 @@
 
     <!-- Info Boxes -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-      <div id="weather" class="bg-sky-800 text-center px-4 py-6 rounded shadow font-bold text-sky-800">
-        <i class="fa-solid fa-bolt">The process starts with a button press — the conveyor moves, a box is detected, and filling begins. After placing the product and lid, the conveyor continues. Emergency and stop buttons ensure safety, with indicators showing system status.</i>
-      </div>
-      <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-3xl font-bold text-sky-800">
-        <i class="fas fa-tint mr-2"></i>
-      </div>
-      <div id="lokasi" class="bg-sky-700 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-2xl font-bold text-sky-800">
-        <i class="fas fa-location-dot mr-2"></i>
-      </div>
-      <div id="keadaan" class="bg-sky-800 border-2 border-sky-800 text-center font-semibold px-4 py-6 rounded shadow text-2xl font-bold text-sky-800">
-        <i class="fas fa-cloud mr-2"></i>
-      </div>
-    </div>
+  <div id="weather" class="bg-sky-800 px-4 py-6 rounded shadow text-white">
+    <p class="text-justify font-semibold">
+      The process starts with a button press — the conveyor moves, a box is detected, and filling begins. After placing the product and lid, the conveyor continues. Emergency and stop buttons ensure safety, with indicators showing system status.
+    </p>
+  </div>
+  
+  <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-3xl font-bold text-white">
+    <i class="fas fa-tint mr-2"></i>
+    <p class="text-base font-medium mt-2">Humidity Sensor</p>
+  </div>
+  
+  <div id="lokasi" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
+    <i class="fas fa-location-dot mr-2"></i>
+    <p class="text-base font-medium mt-2">Device Location</p>
+  </div>
+  
+  <div id="keadaan" class="bg-sky-800 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
+    <i class="fas fa-cloud mr-2"></i>
+    <p class="text-base font-medium mt-2">Weather Condition</p>
+  </div>
+</div>
+
   </div>
 </div>
 <div>
