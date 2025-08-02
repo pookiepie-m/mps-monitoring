@@ -178,19 +178,18 @@
   
   <div id="weather1" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-3xl font-bold text-white">
     <p class="text-justify font-medium mt-2">Unit 2</p>
-    <p class="text-justify font-medium mt-2">with HMI monitoring is an industrial innovation designed to improve efficiency and accuracy. The PLC controls the mechanical operations, enabling fully automated packaging, while the HMI provides a real-time interface for operators to monitor machine status, access production data, and perform control and diagnostics easily
-
+    <p class="text-justify font-medium mt-2">with HMI monitoring is an industrial innovation designed to improve efficiency and accuracy. The PLC controls the mechanical operations, enabling fully automated packaging, while the HMI provides a real-time interface 
 </p>
   </div>
   
   <div id="lokasi" class="bg-sky-700 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
    <p class="text-justify">Unit 3</p>
-    <p class="text-justify font-medium mt-2">Device Location</p>
+    <p class="text-justify font-medium mt-2">The system starts when a proximity sensor detects an incoming box. The conveyor stops, and an actuator performs the stamping process. Then, the rotary table moves to transfer the box to the next position, is monitored in real-time through the HMI</p>
   </div>
   
   <div id="keadaan" class="bg-sky-800 border-2 border-sky-800 text-center px-4 py-6 rounded shadow text-2xl font-bold text-white">
     <p class="text-justify font-medium mt-2">Unit 4</p>
-    <p class="text-justify ">designed to automate barcode scanning and systematic item placement on the correct rack. As part of the production system module, it supports automatic tracking and inventory management. The unit scans product barcodes, identifies proper storage locations, and controls item movement to assigned racks, enhancing efficiency, reducing human error, and speeding up distribution in manufacturing.</p>
+    <p class="text-justify ">designed to automate barcode scanning and systematic item placement on the correct rack. As part of the production system module, it supports automatic tracking and inventory management. The unit scans product barcodes, identifies proper storage locations, and controls item movement.</p>
   </div>
 </div>
 
