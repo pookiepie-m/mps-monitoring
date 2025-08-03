@@ -44,7 +44,7 @@
   <div class="relative flex items-center space-x-4">
     <!-- Notifikasi -->
     <a href="#" class="text-gray-600 hover:text-sky-500 transition">
-      <i class="fa-solid fa-bell"></i> Notifications
+      <i class="fa-solid fa-bell"></i>
     </a>
 
     <!-- Foto Profil -->
