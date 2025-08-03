@@ -7,7 +7,7 @@
     <h1 class="text-3xl font-bold text-center text-sky-700 mb-10">Documentation</h1>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         <div class="text-center">
-            <img src="{{ asset('/public/img/panel.jpg') }}" alt="Gambar 1" class="w-full h-48 object-cover rounded-lg shadow">
+            <img src="{{ asset('/public/img/control.jpg') }}" alt="Gambar 1" class="w-full h-48 object-cover rounded-lg shadow">
             <p class="mt-2 text-gray-700">Control Panel</p>
         </div>
         <div class="text-center">
