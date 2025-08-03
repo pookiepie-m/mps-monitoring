@@ -7,32 +7,54 @@
     <h1 class="text-3xl font-bold text-center text-sky-700 mb-10">Meet Our Team</h1>
 
     {{-- Unit 1 --}}
-    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 1 - Filling and sealing of packaged products</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl">
-        @foreach ([1, 2] as $i)
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="{{ asset('/public/img/team' . $i . '.jpg') }}" alt="Team Member {{ $i }}" class="w-full h-60 object-cover">
-            <div class="p-4 text-center">
-                <h3 class="text-lg font-semibold text-gray-800">Member {{ $i }}</h3>
-                <p class="text-sm text-gray-600">Unit 1 - Operator</p>
-            </div>
+    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 1 - Filling box</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl mx-auto">
+    {{-- Member khusus dengan gambar --}}
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/cin.jpg') }}" alt="cindy" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Cindy Meliana</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.04</p>
         </div>
-        @endforeach
     </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/parid.JPG') }}" alt="parid" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Farid Aziz</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.06</p>
+        </div>
+    </div>
+       
+</div>
 
     {{-- Unit 2 --}}
-    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 2 - Quality Check</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl">
-        @foreach ([3, 4, 5] as $i)
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="{{ asset('img/team' . $i . '.jpg') }}" alt="Team Member {{ $i }}" class="w-full h-60 object-cover">
-            <div class="p-4 text-center">
-                <h3 class="text-lg font-semibold text-gray-800">Member {{ $i }}</h3>
-                <p class="text-sm text-gray-600">Unit 2 - QC Staff</p>
-            </div>
+    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 2 - Packaging Box</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl mx-auto">
+    {{-- Member khusus dengan gambar  --}}
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/nab.jpg') }}" alt="nabila" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Siti Alyanabila</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.03</p>
         </div>
-        @endforeach
     </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/nanum.jpg') }}" alt="hanum" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Hanum Berliana</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.06</p>
+        </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/dev.jpg') }}" alt="dhevana" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">dhevana</h3>
+            <p class="text-sm text-gray-600">4.32.22.2.10</p>
+        </div>
+    </div>
+
+   
+</div>
 
     {{-- Unit 3 --}}
     <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 3 - Stamping and Rotary Table</h2>
@@ -55,8 +77,8 @@
     <div class="bg-white rounded-lg shadow-md overflow-hidden">
         <img src="{{ asset('/public/img/irpin.jpg') }}" alt="irpan" class="w-full h-60 object-cover">
         <div class="p-4 text-center">
-            <h3 class="text-lg font-semibold text-gray-800">Irfan Hari Saputra</h3>
-            <p class="text-sm text-gray-600">4.32.22.2.10</p>
+            <h3 class="text-lg font-semibold text-gray-800">Irvan Hari Saputra</h3>
+            <p class="text-sm text-gray-600">3.32.22.3.10</p>
         </div>
     </div>
 
@@ -65,17 +87,31 @@
 
 
     {{-- Unit 4 --}}
-    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 4 - Barcode Scan And Placement</h2>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-7xl">
-        @foreach ([9, 10, 11] as $i)
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-            <img src="{{ asset('../img' . $i . '.jpg') }}" alt="Team Member {{ $i }}" class="w-full h-60 object-cover">
-            <div class="p-4 text-center">
-                <h3 class="text-lg font-semibold text-gray-800">Member {{ $i }}</h3>
-                <p class="text-sm text-gray-600">Unit 4 - Finishing Staff</p>
-            </div>
+    <h2 class="text-2xl font-semibold text-sky-600 mb-4">Unit 4 - Barcode and Storage</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-10 max-w-7xl mx-auto">
+    {{-- Member khusus dengan gambar firda.PNG --}}
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/ren.jpg') }}" alt="rheno" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Rheno Alvaro</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.03</p>
         </div>
-        @endforeach
     </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/cyan.JPG') }}" alt="cyan" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Firda Pramesthi</h3>
+            <p class="text-sm text-gray-600">3.32.22.2.06</p>
+        </div>
+    </div>
+    <div class="bg-white rounded-lg shadow-md overflow-hidden">
+        <img src="{{ asset('/public/img/faa.jpg') }}" alt="fadil" class="w-full h-60 object-cover">
+        <div class="p-4 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Fadil</h3>
+            <p class="text-sm text-gray-600">3.32.22.3.10</p>
+        </div>
+    </div>
+
+   
 </div>
 @endsection
