@@ -31,7 +31,7 @@
 
       <!-- Left Panel -->
       <div class="w-full md:w-1/2 p-8">
-        <div class="flex items-center space-x-2 mb-10 mt-10 -ml-8">
+        <div class="flex items-center space-x-2 mb-10 mt-5 -ml-8">
           <img src="/public/img/poll.JPG" alt="Polines" class="w-30 h-10 -mt-3">
           <span class="font-semibold text-sm"></span>
         </div>
