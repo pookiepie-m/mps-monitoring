@@ -28,5 +28,5 @@
                 document.getElementById("status").style.color = "red";
             });
     </script>
-    <iframe src="http://172.20.10.2" width="100%" height="600px" frameborder="0"></iframe>
+    <iframe src="10.122.222.95" width="100%" height="600px" frameborder="0"></iframe>
 @endsection
