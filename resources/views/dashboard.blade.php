@@ -37,7 +37,7 @@
   <div class="text-lg font-bold text-sky-600 flex flex-col sm:flex-row sm:space-x-24 sm:ml-12 space-y-8 sm:space-y-0 mx-auto w-fit">
     <!-- Tambahan logo + teks dashboard -->
     <div class="flex items-center space-x-2">
-      <span>MONITORING SYSTEM</span>
+      <span>MPS GAGAH</span>
     </div>
   </div>
 
