@@ -30,11 +30,11 @@
 </head>
 <body class="dark:bg-black">
   <header class="w-full bg-sky-100 shadow-md px-6 py-4 flex justify-between items-center fixed z-20 dark:text-white dark:bg-black">
-    <div class="text-lg font-bold text-sky-600 flex flex-col sm:flex-row sm:space-x-24 sm:ml-12 space-y-8 sm:space-y-0 mx-auto w-fit">
-      <div class="flex items-center space-x-2">
-        <span>MONITORING SYSTEM</span>
-      </div>
-    </div>
+    <div class="text-lg font-bold text-sky-600 flex flex-col sm:flex-row sm:space-x-24 sm:ml-12 space-y-8 sm:space-y-0 px-4 sm:px-0 mx-auto w-fit">
+  <div class="flex items-center space-x-2">
+    <span>MONITORING SYSTEM</span>
+  </div>
+</div>
     <div class="relative flex items-center space-x-4">
       <a href="#" class="text-gray-600 hover:text-sky-500 transition">
         <i class="fa-solid fa-bell"></i> Notifications

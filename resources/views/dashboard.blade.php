@@ -214,8 +214,7 @@
             MPS (Manufacturing Production System) is an integrated system used in industrial environments to automate, monitor, and control various stages of the manufacturing process. It combines mechanical, electrical, and software components—such as PLCs, sensors, actuators, and HMI/SCADA interfaces—to ensure efficient production flow, improve accuracy, and reduce human error. MPS is often applied in training and simulation environments to replicate real-world industrial automation systems.
           </p>
         </div>
-        <a href="/detail" class="text-sm text-white bg-sky-500 hover:bg-sky-600 px-3 py-1 rounded shadow">Learn More</a>
-      </div>
+       </div>
     </div>
 
     <!-- Card 2 -->
