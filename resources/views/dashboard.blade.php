@@ -248,10 +248,17 @@
   </div>
 </div>
 
-<footer class="bg-sky-800 w-full text-white font-bold text-center py-8">
-  <div>
-    <p>© 2025 Copyright</p>
-    <p>Made by our Team TugasAkhir</p>
+<footer class="bg-sky-800 w-full text-white py-8">
+  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
+    <div class="text-center md:text-left">
+      <p class="text-sm md:text-base">© 2025 TugasAkhir Team. All rights reserved.</p>
+      <p class="text-xs text-sky-200">Built with ❤️ using Laravel & TailwindCSS</p>
+    </div>
+    <div class="flex space-x-4">
+      <a href="#" class="hover:text-sky-300 transition">Home</a>
+      <a href="#" class="hover:text-sky-300 transition">About</a>
+      <a href="#" class="hover:text-sky-300 transition">Contact</a>
+    </div>
   </div>
 </footer>
 
