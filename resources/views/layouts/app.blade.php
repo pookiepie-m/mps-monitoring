@@ -109,7 +109,7 @@
         </div>
       </div>
     </aside>
-    <main class="flex-1 p-4 md:p-6 space-y-6 overflow-y-auto">
+    <main class="flex-1 p-4 md:p-6 space-y-6 overflow-y-auto text-sm md:text-base leading-relaxed">
       @yield('content')
     </main>
   </div>

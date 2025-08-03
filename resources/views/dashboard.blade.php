@@ -254,7 +254,7 @@
     <!-- Info Tim -->
     <div>
       <h2 class="text-lg font-semibold mb-2">Tentang Kami</h2>
-      <p class="text-sm">Proyek ini dikembangkan oleh Tim TugasAkhir 2025 untuk menyelesaikan sistem pemantauan industri berbasis PLC dan SCADA.</p>
+      <p class="text-sm">Proyek ini dikembangkan oleh Tim MPS GAGAH 2025 untuk menyelesaikan sistem pemantauan industri berbasis PLC dan SCADA.</p>
     </div>
 
     <!-- Teknologi yang Digunakan -->
@@ -285,7 +285,7 @@
   </div>
 
   <div class="mt-10 border-t border-sky-600 pt-6 text-center text-sm text-sky-300">
-    © 2025 TugasAkhir Team. Dibuat dengan ❤️ menggunakan teknologi open-source.
+    © 2025 MPS GAGAH Team. Dibuat dengan ❤️ menggunakan teknologi open-source.
   </div>
 </footer>
 
