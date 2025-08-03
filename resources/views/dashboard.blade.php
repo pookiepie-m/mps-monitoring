@@ -177,7 +177,7 @@
   </div>
   
   <div id="weather1" class="bg-sky-700 px-4 py-6 rounded shadow text-white">
-    <p class="text-center font-medium mt-2">Unit 2</p>
+    <p class="text-center font-bold text-2xl font-medium mt-2">Unit 2</p>
     <p class="text-justify font-medium mt-2">with HMI monitoring is an industrial innovation designed to improve efficiency and accuracy. The PLC controls the mechanical operations, enabling fully automated packaging, while the HMI provides a real-time interface 
 </p>
   </div>
