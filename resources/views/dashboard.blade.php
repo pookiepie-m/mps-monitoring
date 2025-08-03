@@ -211,7 +211,7 @@
         <div class="flex-1">
           <h2 class="font-semibold text-bold text-gray-800">MPS (Modullar Production System)</h2>
           <p class="text-sm text-gray-600 text-justify"><br>
-            In this Final Project, the controller we used is the Haiwell PLC type H32S0T-e, which provides 16 digital inputs and 16 transistor outputs. This PLC is equipped with one Ethernet port and two RS485 ports, allowing communication with various industrial devices using standard protocols such as Modbus TCP and Modbus RTU.
+            MPS (Manufacturing Production System) is an integrated system used in industrial environments to automate, monitor, and control various stages of the manufacturing process. It combines mechanical, electrical, and software components—such as PLCs, sensors, actuators, and HMI/SCADA interfaces—to ensure efficient production flow, improve accuracy, and reduce human error. MPS is often applied in training and simulation environments to replicate real-world industrial automation systems.
           </p>
         </div>
         <a href="/detail" class="text-sm text-white bg-sky-500 hover:bg-sky-600 px-3 py-1 rounded shadow">Learn More</a>
