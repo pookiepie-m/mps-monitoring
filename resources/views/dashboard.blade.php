@@ -248,19 +248,47 @@
   </div>
 </div>
 
-<footer class="bg-sky-800 w-full text-white py-8">
-  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-    <div class="text-center md:text-left">
-      <p class="text-sm md:text-base">© 2025 TugasAkhir Team. All rights reserved.</p>
-      <p class="text-xs text-sky-200">Built with ❤️ using Laravel & TailwindCSS</p>
+<footer class="bg-sky-800 w-full text-white py-10">
+  <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+    
+    <!-- Info Tim -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Tentang Kami</h2>
+      <p class="text-sm">Proyek ini dikembangkan oleh Tim TugasAkhir 2025 untuk menyelesaikan sistem pemantauan industri berbasis PLC dan SCADA.</p>
     </div>
-    <div class="flex space-x-4">
-      <a href="#" class="hover:text-sky-300 transition">Home</a>
-      <a href="#" class="hover:text-sky-300 transition">About</a>
-      <a href="#" class="hover:text-sky-300 transition">Contact</a>
+
+    <!-- Teknologi yang Digunakan -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Technologies Used</h2>
+      <ul class="text-sm space-y-1 list-disc list-inside text-sky-200">
+        <li>Tailwind CSS</li>
+        <li>Laravel 11</li>
+        <li>Haiwell PLC</li>
+        <li>Haiwell Cloud & HMI</li>
+        <li>SCADA Monitoring</li>
+        <li>MQTT Protocol</li>
+        <li>MySQL Database</li>
+      </ul>
     </div>
+
+    <!-- Navigasi & Kontak -->
+    <div>
+      <h2 class="text-lg font-semibold mb-2">Navigasi</h2>
+      <ul class="text-sm space-y-1 text-sky-200">
+        <li><a href="#" class="hover:text-white transition">Home</a></li>
+        <li><a href="#" class="hover:text-white transition">Documentation</a></li>
+        <li><a href="#" class="hover:text-white transition">GitHub</a></li>
+        <li><a href="#" class="hover:text-white transition">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="mt-10 border-t border-sky-600 pt-6 text-center text-sm text-sky-300">
+    © 2025 TugasAkhir Team. Dibuat dengan ❤️ menggunakan teknologi open-source.
   </div>
 </footer>
+
 
 
 </main>
