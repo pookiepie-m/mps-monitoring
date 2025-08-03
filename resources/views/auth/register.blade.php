@@ -27,7 +27,7 @@
   <div class="min-h-screen flex items-center justify-center px-4">
     <div class="bg-white w-full max-w-xl p-8 rounded-lg shadow-lg space-y-6">
       <div class="flex items-center space-x-2 mb-4">
-        <img src="../img/logoo.PNG" alt="Logo" class="w-30 h-10 -mt-3">
+        <img src="/public/img/poll.JPG" alt="Logo" class="w-30 h-10 -mt-3">
       </div>
       <h2 class="text-2xl font-bold text-gray-800">CREATE YOUR ACCOUNT</h2>
       <p class="text-sm text-gray-500 mb-6">Fill in your details below</p>
