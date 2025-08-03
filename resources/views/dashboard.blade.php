@@ -209,7 +209,7 @@
      
     <div class="bg-gray-200 p-4 rounded shadow relative z-[-1]">
       <div class="flex flex-col sm:flex-row items-center sm:space-x-4 space-y-4 sm:space-y-0 z-0">
-        <img src="/public/img/haiwell2.jpg" alt="User" class="w-50 h-50 object-cover">
+        <img src="/public/img/mpss.jpg" alt="User" class="w-50 h-50 object-cover">
         <div class="flex-1">
           <h2 class="font-semibold text-bold text-gray-800">MPS (Modullar Production System)</h2>
           <p class="text-sm text-gray-600 text-justify"><br>
