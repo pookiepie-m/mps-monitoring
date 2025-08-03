@@ -160,12 +160,14 @@
     </div>
 
     <!-- Big Blue Box -->
-    <div class="bg-gray-700/60 border-2 border-sky-800 rounded-lg h-36 w-full">
-      <div class="text-white ml-3 mt-6 flex-col items-center sm:flex-col sm:space-x-2 space-y-2 sm:space-y-0 z-8">
-        <h1 class="font-bold text-2xl">HOLLAA, ADMIN</h1>
-        <p>This dashboard, developed as part of our final project, enables real-time monitoring of HMI and PLC systems</p>
-      </div>
-    </div>
+    <div class="bg-gray-700/60 border-2 border-sky-800 rounded-lg h-auto w-full px-4 py-6">
+  <div class="text-white flex flex-col items-start space-y-2">
+    <h1 class="font-bold text-xl sm:text-2xl">HOLLAA, ADMIN</h1>
+    <p class="text-sm sm:text-base leading-relaxed">
+      This dashboard, developed as part of our final project, enables real-time monitoring of HMI and PLC systems.
+    </p>
+  </div>
+</div>
 
     <!-- Info Boxes -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
